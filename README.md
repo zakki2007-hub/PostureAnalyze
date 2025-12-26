@@ -1,12 +1,6 @@
-# smart_cushion
+# PostureAnalyze
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
+书院从游节大作业：采用树莓派分析图像数据，通过MeidaPipe（人体姿态评估）结合OpenCV（图像处理）来分析坐姿，并实时传输到手机APP上。手机APP采用flutter平台进行开发，具有显示数据与震动提醒不良坐姿或久坐的功能
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
