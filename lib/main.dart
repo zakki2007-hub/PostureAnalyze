@@ -118,11 +118,11 @@ class _PostureHomePageState extends State<PostureHomePage> {
       checkAndVibrate(); 
     });
   }
-  DateTime lastVibrateTime = DateTime.now(); // 补上这行
-  final int vibrateCooldown = 10;            // 补上这行
-  final int sedentaryLimit = 45 * 60;        // 补上这行
+  DateTime lastVibrateTime = DateTime.now(); 
+  final int vibrateCooldown = 10;            
+  final int sedentaryLimit = 45 * 60;        
 
-  // 补上这个核心震动函数
+  // 核心震动函数
   Future<void> checkAndVibrate() async {
     // 检查是否有震动硬件
     if (await Vibration.hasVibrator() != true) return;
